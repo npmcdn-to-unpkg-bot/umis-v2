@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umis</title> 
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="libs/jquery-validation-engine/css/validationEngine.jquery.css" type="text/css"/>
+    <link href="libs/2select/css/select2.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+    <script src="http://npmcdn.com/react@0.14.2/dist/react.min.js"></script>
+    <script src="http://npmcdn.com/formsy-react@0.17.0/release/formsy-react.js"></script>
+    <script type="text/babel" src="js/react-validation.js"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>    
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="libs/slick/slick.min.js"></script>
+    
+    <script type="text/javascript" src="libs/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript" src="libs/fancybox/jquery.easing-1.4.pack.js"></script>
+    <script type="text/javascript" src="libs/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>    
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="libs/jquery-validation-engine/js/jquery.validationEngine-ru.js" type="text/javascript" charset="utf-8"></script>
+    <script src="libs/jquery-validation-engine/js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+    <script src="libs/2select/js/select2.min.js"></script>
+</head>
+
+<body>
+<!-- Header -->
+    <header>
+        <div class="container header-top">
+            <div class="header-top-item">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+             <div class="header-top-item">
+                <button class="free-call">бесплатный вызов замерщика</button>
+            </div>
+            <div class="header-top-item header-contact">
+                <div class="header-contact-item">
+                    <img src="img/phone.png" alt="phone">
+                </div>
+                <div class="header-contact-item">
+                    <a href="tel:84993904999" class="header-phone">8 (499) 390-49-99</a>
+                    <p class="header-time">Пн-Вс 09:00 до 21:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid menu-wrap">
+            <div class="container menu-inner">
+                <ul class="menu-top dropdown">
+                    <li class="dropdown-top"><a class="dropdown-outer" href="typical.html">о компании</a></li>
+                    <li class="dropdown-top"><a class="dropdown-outer" href="catalog.html">шкафы</a>
+                        <ul class="dropdown-inside">
+                            <li><a class="dropdown-inner" href="#">шкафы угловые</a></li>
+                            <li><a class="dropdown-inner" href="#">шкафы купе</a></li>
+                            <li><a class="dropdown-inner" href="#">угловые шкафы купе</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-top"><a class="dropdown-outer" href="#">гостинные</a></li>
+                    <li class="dropdown-top"><a class="dropdown-outer" href="#">прихожие</a></li>
+                    <li class="dropdown-top"><a class="dropdown-outer" href="#">гардеробные комнаты</a></li>
+                    <li class="dropdown-top"><a class="dropdown-outer" href="#">кухонные гарнитуры</a></li>
+                    <li class="dropdown-top"><a class="dropdown-outer" href="contacts.html">контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!-- Banner -->
+    <div class="container-fluid banner-top-wrap">
+        <div class="container banner-top">
+            <h1 class="banner-caption">Производство<br>мебели <span>на заказ</span></h1>
+            <p class="banner-txt">Если вам нужно содержать вещи в порядке и чистоте, обставить интерьер помещения индивидуально сконструированной мебелью или организовать эффективную систему хранения в специфических сферах бизнеса - мебельная компания ЮМИС готова создать и произвести качественный мебельный проект.</p>
+            <button class="apply-count">бесплатная заявка на просчет</button>
+        </div>
+    </div>
+<!-- Advantage -->
+    <div class="container-fluid advantage-wrap">
+        <div class="container advantage">
+            <div class="advantage-item">
+               <img src="img/accurancy.png" alt="accurancy"> 
+               <h6>Точный замер</h6>
+               <p>Такая мебель будет максимально точно соответствовать  потребностям потребностям вашей семьи и стилю интерьера помещения.</p>
+            </div>
+            <div class="advantage-item">
+               <img src="img/delivery.png" alt="delivery"> 
+               <h6>Доставка под клиента</h6>
+               <p>Такая мебель будет максимально точно соответствовать  потребностям потребностям вашей семьи и стилю интерьера помещения.</p>
+            </div>
+            <div class="advantage-item">
+               <img src="img/correct.png" alt="correct"> 
+               <h6>Правильность сборки </h6>
+               <p>C модульными гостиными на заказ всегда есть простор для творчества клиента и дизайнера. Например, в гостиную можно установить шкафы-купе с фотопечатью, стеллажи выполнить сложной оригинальной конструкции, в качестве материалов использовать разный цвет деревянных полотен, фасады оформить изящной фурнитурой.</p>
+            </div>
+            <div class="advantage-item">
+               <img src="img/guaranty.png" alt="guaranty"> 
+               <h6>Гарантия 24 мес </h6>
+               <p>Гостиных на заказ по индивидуальному проекту изготавливаются точно по размерам и с учетом всех ваших пожеланий к наполнению и функционалу.Такая мебель будет максимально точно соответствовать потребностям вашей семьи</p>
+            </div>
+        </div>
+    </div>
+<!-- Products -->
+    <div class="container products">
+        <h1>Продукция</h1>
+        <div class="product-inner">
+            <a href="#"><img src="img/cabin-broad.png" alt="cabin-broad"></a>
+            <a href="#"><p><img src="img/mark-green.png" alt="mark-green">&nbsp;&nbsp;<span>Шкафы распашные</span></p></a>
+        </div>
+        <div class="product-inner">
+            <a href="#"><img src="img/cabin-kupe.png" alt="cabin-kupe"></a>
+            <a href="#"><p><img src="img/mark-green.png" alt="mark-green">&nbsp;&nbsp;<span>Шкафы-купе</span></p></a>
+        </div>
+        <div class="product-inner">
+            <a href="#"><img src="img/cabin-corner.png" alt="cabin-corner"></a>
+            <a href="#"><p><img src="img/mark-green.png" alt="mark-green">&nbsp;&nbsp;<span>Угловые шкафы-купе</span></p></a>
+        </div>
+        <div class="product-inner">
+            <a href="#"><img src="img/livingroom.png" alt="livingroom"></a>
+            <a href="#"><p><img src="img/mark-green.png" alt="mark-green">&nbsp;&nbsp;<span>Гостинные</span></p></a>
+        </div>
+        <div class="product-inner">
+            <a href="#"><img src="img/hall.png" alt="hall"></a>
+            <a href="#"><p><img src="img/mark-green.png" alt="mark-green">&nbsp;&nbsp;<span>Прихожие</span></p></a>
+        </div>
+        <div class="product-inner">
+            <a href="#"><img src="img/wardrobe.png" alt="wardrobe"></a>
+            <a href="#"><p><img src="img/mark-green.png" alt="mark-green">&nbsp;&nbsp;<span>Гардеробные комнаты</span></p></a>
+        </div>
+    </div>
+<!-- About -->
+    <div class="container-fluid about-wrap">
+        <div class="container-narrow about">
+            <h1>О компании</h1>
+            <p class="about-txt">С другой стороны постоянный количественный рост и сфера нашей активности позволяет оценить значение систем массового участия. Значимость этих проблем настолько очевидна, что рамки и место обучения кадров позволяет выполнять важные задания по разработке систем массового участия.</p>
+            <p class="about-txt">С другой стороны сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и богатый опыт сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития. Задача организации, в особенности же сложившаяся структура организации в значительной степени обуславливает создание позиций, занимаемых участниками в отношении поставленных задач.<br></p>
+        </div>
+    </div>
+<!-- Partners -->
+    <div class="container partners">
+        <h1>Наши партнеры</h1>
+        <p class="partners-txt">Мы работаем с проверенными поставщиками комплектующих<br> и материалов для производства мебели.</p>
+        <a href="#" class="partner">
+            <img src="img/egger.png" alt="egger">
+        </a>
+        <a href="#" class="partner">
+            <img src="img/krono.png" alt="krono">
+        </a>
+        <a href="#" class="partner">
+            <img src="img/kronopol.png" alt="kronopol">
+        </a>
+        <a href="#" class="partner">
+            <img src="img/mam.png" alt="mam">
+        </a>
+        <a href="#" class="partner">
+            <img src="img/hettich.png" alt="hettich">
+        </a>
+        <a href="#" class="partner">
+            <img src="img/boyard.png" alt="boyard">
+        </a>
+        <a href="#" class="partner">
+            <img src="img/aristo.png" alt="aristo">
+        </a>
+        <a href="#" class="partner">
+            <img src="img/blum.png" alt="blum">
+        </a>
+    </div>
+<!-- Apply -->
+    <div class="container-fluid apply-wrap">
+        <div id="app" class="container apply">
+            
+        </div>
+    </div>
+<!-- Footer -->
+    <footer>
+        <div class="container menu-bottom-wrap">
+            <ul class="menu-bottom dropdown-footer">
+                <li class="dropdown-bottom"><a class="dropdown-bottom-outer" href="#">о компании</a></li>
+                <li class="dropdown-bottom"><a class="dropdown-bottom-outer" href="#">шкафы</a>
+                    <ul class="dropdown-bottom-inside">
+                        <li><a class="dropdown-bottom-inner" href="#">шкафы угловые</a></li>
+                        <li><a class="dropdown-bottom-inner" href="#">шкафы купе</a></li>
+                        <li><a class="dropdown-bottom-inner" href="#">угловые шкафы купе</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-bottom"><a class="dropdown-bottom-outer" href="#">гостинные</a></li>
+                <li class="dropdown-bottom"><a class="dropdown-bottom-outer" href="#">прихожие</a></li>
+                <li class="dropdown-bottom"><a class="dropdown-bottom-outer" href="#">гардеробные комнаты</a></li>
+                <li class="dropdown-bottom"><a class="dropdown-bottom-outer" href="#">кухонные гарнитуры</a></li>
+                <li class="dropdown-bottom"><a class="dropdown-bottom-outer" href="#">контакты</a></li>
+            </ul>
+        </div>
+        <div class="container-fluid footer-bottom-wrap">
+            <div class="container footer-bottom">
+                <div class="footer-bottom-item">
+                   <a href="#"><img src="img/logo-bottom.png" alt="logo"></a>
+                   <p class="copy-umis">© 2016, ЮМиС</p> 
+                </div>
+                <div class="footer-bottom-item footer-item-phone">
+                    <img src="img/phone.png" alt="phone">
+                    <a href="tel:84993904999" class="footer-phone">8 (499) 390-49-99</a>
+                </div>
+                <div class="footer-bottom-item footer-item-address">
+                    <img src="img/address.png" alt="address">
+                    <p class="footer-address">г. Москва, ул. Автозаводская,<br>д. 16, кор. 2, стр. 12</p>
+                </div>
+                <div class="footer-bottom-item footer-item-time">
+                    <img src="img/time.png" alt="time">
+                    <p class="footer-time">Пн-Вс 09:00 до 21:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container copyright-inner">
+                <div class="copyright-item">
+                    <a href="#">
+                        <img src="img/copyright.png">                        
+                    </a>
+                    <a href="#">
+                        <p class="copyright">Создание сайта</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
